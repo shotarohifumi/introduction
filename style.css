@@ -170,3 +170,34 @@ footer p {
     font-size: 15px;
     position: absolute;
 }
+
+@media screen and (max-width: 767px) {
+    .header-left {
+        width: 80%;
+        max-width: 18px;
+        margin-top: 5%;
+    }
+    
+    ul {
+        display: block;
+    }
+
+    li {
+        font-size: 20px;
+        margin: 0 0;
+    }
+
+    .introduction .exp p {
+        font-size: 10px;
+    }
+
+    .exp {
+        top: 100px;
+        right: 45px;
+    }
+
+    .whatigot {
+        display: block;
+        text-align: center;
+    }
+}
