@@ -159,6 +159,11 @@ button {
     color: black;
 }
 
+button:hover {
+    transform:scale(1.2,1.2);
+    transition: 1s all;
+}
+
 footer {
     height: 20px;
     display: flex;
@@ -202,5 +207,9 @@ footer p {
         height: auto;
     }
     
+    .love {
+        display: block;
+        text-align: center;
+    }
 
 }
