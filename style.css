@@ -18,6 +18,16 @@ header {
 
 .header-left {
     font-size: 36px;
+    animation: biggerfont .5s linear .5s infinite normal both;
+}
+
+@keyframes biggerfont {
+    from {
+        font-size: 36px;
+    }
+    to {
+        font-size: 45px;
+    }
 }
 
 ul {
