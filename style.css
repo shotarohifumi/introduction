@@ -167,6 +167,16 @@ button {
     margin-top: 26px;
     cursor: pointer;
     color: black;
+    animation-name: font;
+}
+
+@keyframes font {
+    from {
+        font-size: 23px;
+    }
+    to {
+        font-size: 30px;
+    }
 }
 
 button:hover {
